@@ -17,7 +17,7 @@ const AboutArea = () => {
                                 <div className="about-1-wrapper">
                                     <div className="about-text">
                                         <span>who we are</span>
-                                        <h1>More than 23+ years we provide <span>IT solutions </span></h1>
+                                        <h1>More than 8 + years we provide <span>IT solutions </span></h1>
                                         <p>Sed ut perspiciatis unde omnis iste natus errorsit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo invetore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                                         <p className="mt-20">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem </p>
                                     </div>

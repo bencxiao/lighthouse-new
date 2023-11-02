@@ -19,14 +19,14 @@ const HomeMain = () => {
            <SliderDefault/>
            <About/>
            <Service/>
-           <Team/>
+           {/*<Team/>*/}
            <Cta/>
            <Project/>
            <Testimonial/>
            <CounterDefault/>
            <Video/>
            <Contact/>
-           <BlogGrid/>
+           {/*<BlogGrid/>*/}
            <Brand/>
            <Newsletter/>
         </>
