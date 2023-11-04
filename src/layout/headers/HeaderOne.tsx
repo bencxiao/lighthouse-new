@@ -71,36 +71,36 @@ const HeaderOne = () => {
                 <div className="header-button f-right d-lg-block">
                   <div className="bd-header__right d-flex align-items-center justify-content-end">
                     <div className="bd-action__cart-list">
-                      <div className="bd-action__item">
-                        <div className="bd-action__cart">
-                          <div
-                            className="bd-action__cart-icon"
-                            onClick={() => setOpenCart(true)}
-                          >
-                            <span className="bd-cart-mini-btn">
-                              <CartIcon />
-                            </span>
-                            <span className="bd-action__item-number cart-count">
-                              {productQuantity}
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="bd-action__item">
-                        <div className="bd-action__wishlist">
-                          <div
-                            className="bd-action__wistlist-icon"
-                            onClick={() => setOpenWishlist(true)}
-                          >
-                            <span className="bd-cart-mini-btn">
-                              <WishlistIcon />
-                            </span>
-                            <span className="bd-action__item-number wishlist-count">
-                              {wishlistQuantity}
-                            </span>
-                          </div>
-                        </div>
-                      </div>
+                      {/*<div className="bd-action__item">*/}
+                      {/*  <div className="bd-action__cart">*/}
+                      {/*    <div*/}
+                      {/*      className="bd-action__cart-icon"*/}
+                      {/*      onClick={() => setOpenCart(true)}*/}
+                      {/*    >*/}
+                      {/*      <span className="bd-cart-mini-btn">*/}
+                      {/*        <CartIcon />*/}
+                      {/*      </span>*/}
+                      {/*      <span className="bd-action__item-number cart-count">*/}
+                      {/*        {productQuantity}*/}
+                      {/*      </span>*/}
+                      {/*    </div>*/}
+                      {/*  </div>*/}
+                      {/*</div>*/}
+                      {/*<div className="bd-action__item">*/}
+                      {/*  <div className="bd-action__wishlist">*/}
+                      {/*    <div*/}
+                      {/*      className="bd-action__wistlist-icon"*/}
+                      {/*      onClick={() => setOpenWishlist(true)}*/}
+                      {/*    >*/}
+                      {/*      <span className="bd-cart-mini-btn">*/}
+                      {/*        <WishlistIcon />*/}
+                      {/*      </span>*/}
+                      {/*      <span className="bd-action__item-number wishlist-count">*/}
+                      {/*        {wishlistQuantity}*/}
+                      {/*      </span>*/}
+                      {/*    </div>*/}
+                      {/*  </div>*/}
+                      {/*</div>*/}
                       <div className="d-inline-block d-xl-none d-lg-none text-right">
                         <div className="menu-bar">
                           <button className="bars" onClick={toggleSideMenu}>

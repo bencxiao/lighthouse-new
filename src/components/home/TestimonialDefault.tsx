@@ -5,33 +5,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 const TestimonialDefault = () => {
   const testimonialData = [
+
     {
       id: 1,
       details:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantie totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi artectbeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sipernatur aut odit aut fugit sed quia consequunture",
-      name: "Kane Willumsons",
-      title: "SR Developer",
+        "Lighthouse has been dedicated to helping our firm with qualitative and timely managed IT service for more than 5 years. They have been an important success factor in our firm's business expansion, will always recommend!",
+      name: "Carrie",
+      title: "CPA, Accounting Firm Partner",
     },
     {
       id: 2,
       details:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantie totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi artectbeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sipernatur aut odit aut fugit sed quia consequunture",
-      name: "Kane Willumsons",
-      title: "SR Developer",
+          "Lighthouse helped me with coming up a quick solution for my temporary clinic, as well as a permanent software and hardware solution in my new clinic. They were also very knowledgeable and were able to provide training to my employees, arming them with latest IT knowledge.",
+      name: "James",
+      title: "Family Doctor",
     },
     {
       id: 3,
       details:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantie totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi artectbeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sipernatur aut odit aut fugit sed quia consequunture",
-      name: "Kane Willumsons",
-      title: "SR Developer",
-    },
-    {
-      id: 4,
-      details:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantie totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi artectbeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sipernatur aut odit aut fugit sed quia consequunture",
-      name: "Mariya Luica",
-      title: "Jr Designer",
+          "These guys were trustworthy and responsive. Helped me quickly with my software problem. I didn't know they also had good knowledge on online advertisement, that was an extra point why I would recommend them!",
+      name: "Lin",
+      title: "Architectural Business Owner",
     },
   ];
   return (

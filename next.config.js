@@ -1,8 +1,10 @@
 
 module.exports = {
     images: {
-      domains: ['i.ibb.co'],
-    }
+        unoptimized: true,
+        domains: ['i.ibb.co'],
+    },
+    output: 'export'
 };
   
 

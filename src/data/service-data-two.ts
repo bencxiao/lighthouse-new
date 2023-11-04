@@ -20,7 +20,7 @@ export const  serviceDataTwo = [
         img: IconFive,
         title: "Managed IT Service",
         details:
-            "24x7, 365 days. You could trust our managed IT services. No more headache on playing around with hardware and software all day long. Get your real business time back for you.",
+            "24x7, 365 days. No more headache on playing around with hardware and software all day long. Get your real business time back for you.",
         icon: "fas fa-long-arrow-alt-right",
     },
     {
@@ -34,9 +34,9 @@ export const  serviceDataTwo = [
     {
       id: 3,
       img: IconThree,
-      title: "Software and hardware",
+      title: "IT Consultancy",
       details:
-        "It is a long established fact that a reader will be distracted by the readable content of a page when looking",
+        "Tell us about your next exciting project, we will make it come true. Boost your business with latest technology today.",
       icon: "fas fa-long-arrow-alt-right",
     },
     // {

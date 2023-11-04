@@ -37,12 +37,9 @@ const FooterOne = () => {
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Our Services</h4>
                                 <ul className="fotter-menu">
-                                    <li><Link href="/service-1">User Strategy</Link></li>
-                                    <li><Link href="/service-1">Product Designing</Link></li>
-                                    <li><Link href="/service-1">Marketing Strategy</Link></li>
+                                    <li><Link href="/service-1">Managed IT Service</Link></li>
+                                    <li><Link href="/service-1">Cloud Solution</Link></li>
                                     <li><Link href="/service-1">IT Consultancy</Link></li>
-                                    <li><Link href="/service-1">Server Security</Link></li>
-                                    <li><Link href="/service-1">Product Marketing</Link></li>
                                 </ul>
                             </div>
                         </div>

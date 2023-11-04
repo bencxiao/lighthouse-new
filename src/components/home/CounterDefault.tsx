@@ -5,28 +5,27 @@ const CounterDefault = () => {
         {
             countIcon: 'fas fa-check-square',
             countIconPrefix: 'fas',
-            countNum: 569,
-            countTitle: 'Projct Complate'
+            countNum: 267,
+            countTitle: 'Projects Completed'
         },
         {
             countIcon: 'fas fa-heart',
             countIconPrefix: 'fas',
-            countNum: 356,
+            countNum: 133,
             countTitle: 'Happy Clients'
         },
         {
-            countIcon: 'fas fa-users',
+            countIcon: 'fas fa-clock',
             countIconPrefix: 'fas',
-            countNum : 783,
-            countTitle: 'Business Partners'
-        },
-        {
-            countIcon: 'fas fa-trophy',
-            countIconPrefix: 'fas',
-            countNum : 894,
-            countTitle: 'IT Consultant'
+            countNum : 11680,
+            countTitle: 'Hours On 24*7 Service'
         }
-
+        // {
+        //     countIcon: 'fas fa-trophy',
+        //     countIconPrefix: 'fas',
+        //     countNum : 894,
+        //     countTitle: 'IT Consultant'
+        // }
     ];
 
     return(
@@ -35,7 +34,7 @@ const CounterDefault = () => {
                 {counters &&
                 <div className="row">
                     {counters.map( (item, num) => (
-                    <div key={num} className="col-xl-3 col-lg-3 col-md-6">
+                    <div key={num} className="col-xl-4 col-lg-4 col-md-6">
                         <div className="counter-wrapper mb-30">
                             <div className="counter-icon">
                                 <i className={item.countIcon}></i>
