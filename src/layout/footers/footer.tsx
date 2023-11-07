@@ -23,17 +23,14 @@ const FooterOne = () => {
                                     </Link>
                                 </div>
                                 <div className="footer-text">
-                                    <p>At  1vero eoset accusamus et iusto odio dignissimos ducimus qui blpraesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
+                                    <p>We are a team of enthusiastic IT gurus. All of us are geared with multiple technology skills, including Cloud technology, software and hardware debug skills, as well as choosing the vendor and technology best fit your business. </p>
                                 </div>
                                 <div className="footer-icon">
-                                    <a href="#"><i className='fab fa-facebook-f'></i></a>
-                                    <a href="#"><i className='fab fa-twitter'></i></a>
-                                    <a href="#"><i className='fab fa-instagram'></i></a>
-                                    <a href="#"><i className='fab fa-youtube'></i></a>
+                                    <Link href="https://www.linkedin.com/company/lighthouse-consulting-yyc"><i className='fab fa-linkedin-in'></i></Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-2 col-md-4">
+                        <div className="col-xl-3 col-lg-3 col-md-4">
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Our Services</h4>
                                 <ul className="fotter-menu">
@@ -43,7 +40,7 @@ const FooterOne = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-2 col-md-4">
+                        <div className="col-xl-3 col-lg-3 col-md-4">
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Quick Links</h4>
                                 <ul className="fotter-menu">
@@ -51,42 +48,40 @@ const FooterOne = () => {
                                     <li><Link href="/goals">Need a Consultant?</Link></li>
                                     <li><Link href="/service-1">Our Services</Link></li>
                                     <li><Link href="/faq">Have Any Questions?</Link></li>
-                                    <li><Link href="/team">Meet Our Team</Link></li>
                                     <li><Link href="/contact">Contact Us</Link></li>
                                 </ul>
                             </div>
                         </div>
+                        {/*<div className="col-xl-3 col-lg-3 col-md-6">*/}
+                        {/*    <div className="footer-wrapper mb-30">*/}
+                        {/*        <h4 className="footer-title">Recent News</h4>*/}
+                        {/*        <div className="footer-news">*/}
+                        {/*            <ul>*/}
+                        {/*                <li>*/}
+                        {/*                    <div className="footer-news-img">*/}
+                        {/*                        <Link href="/blog"><Image src={imgOne} alt="" /></Link>*/}
+                        {/*                    </div>*/}
+                        {/*                    <div className="footer-news-text">*/}
+                        {/*                        <h5><Link href="/blog">Building Real Time Charts With Grap HQL & Postgres</Link></h5>*/}
+                        {/*                    </div>*/}
+                        {/*                </li>*/}
+                        {/*                <li>*/}
+                        {/*                    <div className="footer-news-img">*/}
+                        {/*                        <Link href="/blog"><Image src={imgTow} alt="" /></Link>*/}
+                        {/*                    </div>*/}
+                        {/*                    <div className="footer-news-text">*/}
+                        {/*                        <h5><Link href="/blog">How To Build An Endless Runner Or Virtual Reality</Link></h5>*/}
+                        {/*                    </div>*/}
+                        {/*                </li>*/}
+                        {/*            </ul>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                         <div className="col-xl-3 col-lg-3 col-md-6">
-                            <div className="footer-wrapper mb-30">
-                                <h4 className="footer-title">Recent News</h4>
-                                <div className="footer-news">
-                                    <ul>
-                                        <li>
-                                            <div className="footer-news-img">
-                                                <Link href="/blog"><Image src={imgOne} alt="" /></Link>
-                                            </div>
-                                            <div className="footer-news-text">
-                                                <h5><Link href="/blog">Building Real Time Charts With Grap HQL & Postgres</Link></h5>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="footer-news-img">
-                                                <Link href="/blog"><Image src={imgTow} alt="" /></Link>
-                                            </div>
-                                            <div className="footer-news-text">
-                                                <h5><Link href="/blog">How To Build An Endless Runner Or Virtual Reality</Link></h5>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-lg-2 col-md-6">
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Contact Us</h4>
                                 <div className="footer-info">
-                                    <p>But I must explain to you
-                                        how all this mistaken</p>
+                                    <p>Reach out to us!</p>
                                 </div>
                                 <ul className="contact-link">
                                     <li>
@@ -94,7 +89,7 @@ const FooterOne = () => {
                                             <i className="fas fa-phone"></i>
                                         </div>
                                         <div className="contact-address-text">
-                                            <h4>+812  (345) 778 88</h4>
+                                            <h4>+1 (587) 998-8287</h4>
                                         </div>
                                     </li>
                                     <li>
@@ -102,7 +97,7 @@ const FooterOne = () => {
                                             <i className="fas fa-envelope-open"></i>
                                         </div>
                                         <div className="contact-address-text">
-                                            <h4>support@gmail.com</h4>
+                                            <h4>info@yyclighthouse.com</h4>
                                         </div>
                                     </li>
                                     <li>
@@ -110,7 +105,7 @@ const FooterOne = () => {
                                             <i className="fas fa-map-marker-alt"></i>
                                         </div>
                                         <div className="contact-address-text">
-                                            <h4>227 Marion Street, Columbia</h4>
+                                            <h4>1431 40 Ave NE, Calgary, AB T2E 8N6</h4>
                                         </div>
                                     </li>
                                 </ul>

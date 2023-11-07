@@ -103,10 +103,9 @@ export interface teamDataType{
     img: StaticImageData;
     name: string;
     title: string;
-    facebook: string;
-    twitter: string;
-    instagram: string;
-    youtube: string;
+    linkedIn: string;
+  linkedInLink: string;
+  emailAdd: string;
 }
 export interface ProductType {
   _id: number;

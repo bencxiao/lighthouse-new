@@ -2,6 +2,8 @@
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
+import {serviceDataTwo} from "@/data/service-data-two";
+import Image from "next/image";
 const AboutService = () => {
   const path = usePathname()
   return (
@@ -9,63 +11,25 @@ const AboutService = () => {
       <div className={`services-area  ${path === "/service-2" || "/service-manage" ? "" : "pb-100"}`}>
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-              <div className="single-services text-center">
-                <div className="services-icon">
-                  <i className="fas fa-laptop-code"> </i>
+            {serviceDataTwo.map((item) => (
+                <div key={item.id} className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div className="services-wrapper text-center">
+                    <div className="services-img">
+                      <Image src={item.img} alt="" />
+                    </div>
+                    <div className="services-text">
+                      <h3> {item.title} </h3>
+                      <p> {item.details} </p>
+                      <Link href="/service-1">
+                      <span className="services-button">
+                        read more{" "}
+                        <i className="fas fa-long-arrow-alt-right"></i>
+                      </span>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-                <div className="services-text">
-                  <h3>Web Development</h3>
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking{" "}
-                  </p>
-                  <Link href="/service-manage">
-                    <span className="services-button">
-                      read more <i className="fas fa-long-arrow-alt-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-              <div className="single-services active text-center">
-                <div className="services-icon">
-                  <i className="fas fa-database"> </i>
-                </div>
-                <div className="services-text">
-                  <h3>Database Analysis</h3>
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking{" "}
-                  </p>
-                  <Link href="/service-manage">
-                    <span className="services-button">
-                      read more <i className="fas fa-long-arrow-alt-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-              <div className="single-services text-center">
-                <div className="services-icon">
-                  <i className="fas fa-server"> </i>
-                </div>
-                <div className="services-text">
-                  <h3>Server Security</h3>
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking{" "}
-                  </p>
-                  <Link href="/service-manage">
-                    <span className="services-button">
-                      read more <i className="fas fa-long-arrow-alt-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

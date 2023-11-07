@@ -7,7 +7,7 @@ import Brand from "../home/Brand";
 const ServiceTwoMain = () => {
   return (
     <>
-      <Breadcrumb pageTitle="Service Two" />
+      <Breadcrumb pageTitle="Cloud Solution" />
       <div className="pt-130 pb-100">
         <AboutService />
       </div>

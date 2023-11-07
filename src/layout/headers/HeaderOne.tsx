@@ -60,14 +60,14 @@ const HeaderOne = () => {
                 id="right-header"
                 className="col-xl-9 col-lg-9 col-md-6 col-4"
               >
-                <div className="header-button f-right d-none d-lg-block">
-                  <Link className="btn" href="/goals">
-                    <span className="btn-text">
-                      Consultancy{" "}
-                      <i className="fas fa-long-arrow-alt-right"></i>
-                    </span>
-                  </Link>
-                </div>
+                {/*<div className="header-button f-right d-none d-lg-block">*/}
+                {/*  <Link className="btn" href="/goals">*/}
+                {/*    <span className="btn-text">*/}
+                {/*      Consultancy{" "}*/}
+                {/*      <i className="fas fa-long-arrow-alt-right"></i>*/}
+                {/*    </span>*/}
+                {/*  </Link>*/}
+                {/*</div>*/}
                 <div className="header-button f-right d-lg-block">
                   <div className="bd-header__right d-flex align-items-center justify-content-end">
                     <div className="bd-action__cart-list">

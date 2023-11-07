@@ -14,10 +14,10 @@ const AboutMain = () => {
       <Breadcrumb pageTitle="About Us" />
       <AboutArea />
       <AboutService />
-      <ChoseArea />
+      {/*<ChoseArea />*/}
       <Team />
       <CtaTwo/>
-      <ClientSection />
+      {/*<ClientSection />*/}
       <Brand />
     </>
   );
