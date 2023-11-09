@@ -33,18 +33,18 @@ const FullTeam = () => {
                     <h4> <Link className="team-title" href={`/team-details/${item.id}`}> {item.name} </Link> </h4>
                     <span> {item.title} </span>
                     <div className="team-icon">
-                      <Link href="">
-                        <i className={item.facebook}></i>
-                      </Link>
-                      <Link href="">
-                        <i className={item.twitter}></i>
-                      </Link>
-                      <Link href="">
-                        <i className={item.instagram}></i>
-                      </Link>
-                      <Link href="">
-                        <i className={item.youtube}></i>
-                      </Link>
+                      {/*<Link href="">*/}
+                      {/*  <i className={item.facebook}></i>*/}
+                      {/*</Link>*/}
+                      {/*<Link href="">*/}
+                      {/*  <i className={item.twitter}></i>*/}
+                      {/*</Link>*/}
+                      {/*<Link href="">*/}
+                      {/*  <i className={item.instagram}></i>*/}
+                      {/*</Link>*/}
+                      {/*<Link href="">*/}
+                      {/*  <i className={item.youtube}></i>*/}
+                      {/*</Link>*/}
                     </div>
                   </div>
                 </div>
