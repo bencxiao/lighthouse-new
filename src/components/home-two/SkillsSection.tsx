@@ -23,7 +23,7 @@ const SkillsSection = () => {
                                 <span className="b-sm-left-2"></span>
                                 <span className="sub-t-left">Cloud Platforms</span>
                                 <h1>We know cloud architecting, onboard to cloud today!</h1>
-                                <p>We bring extensive expertise to the realm of cloud computing, specializing in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Our deep understanding of these leading cloud services enables us to seamlessly guide businesses through the complexities of modern IT infrastructure. With a focus on tailoring solutions to clients' specific goals, we leverage the scalability of AWS, the integrated suite of services in Azure, and the cutting-edge technologies of GCP. At Lighthouse Consulting, we are your trusted partner in optimizing operations and unlocking the full potential of cloud computing.</p>
+                                <p>We bring extensive expertise to the realm of cloud computing, specializing in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Our deep understanding of these leading cloud services enables us to seamlessly guide businesses through the complexities of modern IT infrastructure. With a focus on tailoring solutions to clients&apos; specific goals, we leverage the scalability of AWS, the integrated suite of services in Azure, and the cutting-edge technologies of GCP. At Lighthouse Consulting, we are your trusted partner in optimizing operations and unlocking the full potential of cloud computing.</p>
                             </div>
                             <div className="progress-bar-text">
                                 <div className="progress-skill">

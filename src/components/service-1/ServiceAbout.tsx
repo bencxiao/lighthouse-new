@@ -42,7 +42,7 @@ const ServiceAbout = () => {
                                     <h1>Why would you need managed IT services</h1>
                                 </div>
                                 <div className="faq-box">
-                                    <p>Businesses opt for managed IT services for several compelling reasons, and these services play a crucial role in supporting the overall health and efficiency of an organization's IT infrastructure. Here are key reasons why businesses often choose managed IT services:</p>
+                                    <p>Businesses opt for managed IT services for several compelling reasons, and these services play a crucial role in supporting the overall health and efficiency of an organization&apos;s IT infrastructure. Here are key reasons why businesses often choose managed IT services:</p>
                                     <ul>
                                         <li>
                                             <b>Cost Efficiency</b>
