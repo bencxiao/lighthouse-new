@@ -19,11 +19,11 @@ const navMenuData: MenuItem[] = [
       },
       {id: 10,
         label: "Cloud Solution",
-        link: "/service-2",
+        link: "/service-3",
       },
       {id: 11,
         label: "IT Consultancy",
-        link: "/service-3",
+        link: "/service-2",
       }
     ],
   },

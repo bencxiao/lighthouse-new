@@ -14,7 +14,7 @@ const ServicesForServiceThree = () => {
                 <span className="border-left-1"></span>
                 <span>our services</span>
                 <span className="border-right-1"></span>
-                <h1>We provide exclusive services for your busainess</h1>
+                <h1>We provide exclusive services for your business</h1>
               </div>
             </div>
           </div>

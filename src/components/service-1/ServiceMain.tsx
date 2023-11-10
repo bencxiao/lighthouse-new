@@ -10,7 +10,7 @@ const ServiceMain = () => {
         <>
             <Breadcrumb pageTitle='Managed IT Service'/>
             <ServiceAbout/>
-            <Service/>
+            {/*<Service/>*/}
             <ContactSection/>
             <Brand/>
         </>

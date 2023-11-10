@@ -1,7 +1,7 @@
 "use client"
 import React, { useState }  from 'react';
 import ModalVideo from 'react-modal-video';
-import aboutOne from "../../../public/assets/img/about/03.jpg"
+import aboutOne from "../../../public/assets/img/about/it-service-and-man-fixing-a-pc_1_550x367.jpg"
 import aboutFour from "../../../public/assets/img/about/04.jpg"
 import Image from 'next/image';
 const ServiceVideo = () => {
@@ -12,14 +12,14 @@ const ServiceVideo = () => {
             <ModalVideo channel='youtube' isOpen={isOpen} videoId='vWLcyFtni6U' onClose={() => { openModal(); }} />
             <div className="about-us-img">
                 <Image src={aboutOne} alt="" />
-                <div className="about-us-2-img">
-                    <div className="about-inner-img about-2-inner">
-                        <Image src={aboutFour} alt="" />
-                        <div className="about-video">
-                            <a className="popup-video" onClick={() => { openModal(); }}><i className='fas fa-play'> </i></a>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="about-us-2-img">*/}
+                {/*    <div className="about-inner-img about-2-inner">*/}
+                {/*        <Image src={aboutFour} alt="" />*/}
+                {/*        <div className="about-video">*/}
+                {/*            <a className="popup-video" onClick={() => { openModal(); }}><i className='fas fa-play'> </i></a>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </div>
     );
