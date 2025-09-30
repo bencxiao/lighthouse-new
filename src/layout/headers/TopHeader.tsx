@@ -12,7 +12,7 @@ const TopHeader = () => {
                     <div className="col-xl-8 col-lg-8 col-md-6 d-flex align-items-center">
                         <div className="header-info">
                             <span><i className='far fa-map-marker-alt'></i>#9, 1431 40 AVE NE, Calgary</span>
-                            <span className="header-ph"><i className="fas fa-phone"></i>(587) 998-8287</span>
+                            {/* <span className="header-ph"><i className="fas fa-phone"></i>(587) 998-8287</span> */}
                             <span className="header-en"><i className='fas fa-envelope-open'></i>info@yyclighthouse.com</span>
                         </div>
                     </div>
